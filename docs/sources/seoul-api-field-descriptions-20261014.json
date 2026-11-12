@@ -1,0 +1,17 @@
+{
+  "source": "https://data.seoul.go.kr/dataList/OA-21285/A/1/datasetView.do",
+  "rows": [
+    "21\n\t\t\t\t\tPPLTN_TIME\n\t\t\t\t\t실시간 인구 데이터 업데이트 시간",
+    "169\n\t\t\t\t\tTEMP\n\t\t\t\t\t기온",
+    "170\n\t\t\t\t\tMAX_TEMP\n\t\t\t\t\t일 최저온도/최고온도",
+    "171\n\t\t\t\t\tMIN_TEMP\n\t\t\t\t\t일 최저온도/최고온도",
+    "172\n\t\t\t\t\tHUMIDITY\n\t\t\t\t\t습도",
+    "183\n\t\t\t\t\tPM25_INDEX\n\t\t\t\t\t초미세먼지지표",
+    "184\n\t\t\t\t\tPM25\n\t\t\t\t\t초미세먼지농도",
+    "191\n\t\t\t\t\tWEATHER_TIME\n\t\t\t\t\t날씨 데이터 업데이트 시간",
+    "201\n\t\t\t\t\tTEMP \n\t\t\t\t\t기온",
+    "INFO-100\n\t\t\t\t인증키가 유효하지 않습니다.인증키가 없는 경우, 열린 데이터 광장 홈페이지에서 인증키를 신청하십시오."
+  ],
+  "checkedAt": "2026-10-14",
+  "actualFailureEnvelopeVerified": false
+}

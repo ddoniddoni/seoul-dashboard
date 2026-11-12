@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<SeoulRtd.citydata>
+  <!--2026-10-14 사용자 승인으로 강남역을 실제 키로 1회 조회한 응답에서 직접 추출. 합성 데이터가 아님. 인구/날씨 핵심 필드 외 모든 section과 예측 배열을 생략한 축약본이며 전체 응답 fixture가 아님. 인증키와 호출 URL은 포함하지 않음.-->
+  <list_total_count>1</list_total_count>
+  <RESULT>
+    <RESULT.CODE>INFO-000</RESULT.CODE>
+    <RESULT.MESSAGE>정상 처리되었습니다.</RESULT.MESSAGE>
+  </RESULT>
+  <CITYDATA>
+    <AREA_NM>강남역</AREA_NM>
+    <AREA_CD>POI014</AREA_CD>
+    <LIVE_PPLTN_STTS>
+      <LIVE_PPLTN_STTS>
+        <AREA_NM>강남역</AREA_NM>
+        <AREA_CD>POI014</AREA_CD>
+        <AREA_CONGEST_LVL>붐빔</AREA_CONGEST_LVL>
+        <AREA_CONGEST_MSG>사람들이 몰려있을 가능성이 매우 크고 많이 붐빈다고 느낄 수 있어요. 인구밀도가 높은 구간에서는 도보 이동시 부딪힘이 발생할 수 있어요.</AREA_CONGEST_MSG>
+        <AREA_PPLTN_MIN>78000</AREA_PPLTN_MIN>
+        <AREA_PPLTN_MAX>80000</AREA_PPLTN_MAX>
+        <PPLTN_TIME>2026-10-14 16:40</PPLTN_TIME>
+        <REPLACE_YN>N</REPLACE_YN>
+        <FCST_YN>Y</FCST_YN>
+      </LIVE_PPLTN_STTS>
+    </LIVE_PPLTN_STTS>
+    <WEATHER_STTS>
+      <WEATHER_STTS>
+        <WEATHER_TIME>2026-10-14 16:50</WEATHER_TIME>
+        <TEMP>18.4</TEMP>
+        <HUMIDITY>28</HUMIDITY>
+        <PM25>4</PM25>
+        <PM25_INDEX>좋음</PM25_INDEX>
+        <PM10>24</PM10>
+        <PM10_INDEX>좋음</PM10_INDEX>
+      </WEATHER_STTS>
+    </WEATHER_STTS>
+  </CITYDATA>
+</SeoulRtd.citydata>

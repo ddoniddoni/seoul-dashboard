@@ -1,0 +1,69 @@
+{
+  "verifiedOn": "2026-10-14",
+  "source": {
+    "provider": "서울특별시 서울 열린데이터광장",
+    "datasetUrl": "https://data.seoul.go.kr/dataList/OA-21285/F/1/datasetView.do",
+    "filename": "서울시 주요 121장소 목록.xlsx",
+    "attachmentModifiedOn": "2026-04-02",
+    "sheet": "장소목록",
+    "sha256": "60aedf332efef1535623e22c14af2acd6b3ccfa35e60423fbbea8cc8188f1ff7"
+  },
+  "scope": "M0에서 선택한 공식 카탈로그. 관측값이나 활성 수집 목록이 아니다.",
+  "areas": [
+    {
+      "sourceRow": 15,
+      "category": "인구밀집지역",
+      "areaCode": "POI014",
+      "areaName": "강남역",
+      "candidateRegion": "강남권",
+      "selectionReason": "강남권의 역 주변 생활권을 선택했다. 강남 MICE 관광특구와 별개이며 두 영역을 합치지 않는다.",
+      "sourceGeometryMatched": true,
+      "geometryAvailable": false,
+      "collectionEnabled": false
+    },
+    {
+      "sourceRow": 8,
+      "category": "관광특구",
+      "areaCode": "POI007",
+      "areaName": "홍대 관광특구",
+      "candidateRegion": "홍대권",
+      "selectionReason": "역 출입구 중심인 홍대입구역(2호선) 대신 홍대 문화와 관광 생활권을 선택했다.",
+      "sourceGeometryMatched": true,
+      "geometryAvailable": false,
+      "collectionEnabled": false
+    },
+    {
+      "sourceRow": 4,
+      "category": "관광특구",
+      "areaCode": "POI003",
+      "areaName": "명동 관광특구",
+      "candidateRegion": "명동권",
+      "selectionReason": "공식 명동 관광특구를 선택했다. 영문명에는 인접 권역도 포함되므로 명동역만의 영역으로 설명하지 않는다.",
+      "sourceGeometryMatched": true,
+      "geometryAvailable": false,
+      "collectionEnabled": false
+    },
+    {
+      "sourceRow": 67,
+      "category": "발달상권",
+      "areaCode": "POI072",
+      "areaName": "여의도",
+      "candidateRegion": "여의도권",
+      "selectionReason": "발달상권 여의도를 선택했다. 여의도한강공원과 여의서로는 별도 장소로 남긴다.",
+      "sourceGeometryMatched": true,
+      "geometryAvailable": false,
+      "collectionEnabled": false
+    },
+    {
+      "sourceRow": 64,
+      "category": "발달상권",
+      "areaCode": "POI068",
+      "areaName": "성수카페거리",
+      "candidateRegion": "성수권",
+      "selectionReason": "공식 발달상권 성수카페거리를 선택했다. 성수동 전체로 확대해 표현하지 않는다.",
+      "sourceGeometryMatched": true,
+      "geometryAvailable": false,
+      "collectionEnabled": false
+    }
+  ]
+}

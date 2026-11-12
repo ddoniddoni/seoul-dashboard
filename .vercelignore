@@ -1,0 +1,18 @@
+# 서버 환경 변수는 Vercel 프로젝트 설정에서 주입한다.
+.env*
+.local/
+.git/
+.vercel/
+.codex/
+.agents/
+.aws/
+node_modules/
+.next/
+out/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+*.log
+.DS_Store
+supabase/.temp/

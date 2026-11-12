@@ -1,0 +1,44 @@
+{
+  "checkedOn": "2026-10-15",
+  "scope": "서울시 도시데이터 citydata에 사용하는 일반 인증키의 공개 호출 횟수 정책 확인. 개별 발급 계정 조회나 부하 시험이 아님.",
+  "sources": [
+    {
+      "url": "https://tv.seoul.go.kr/v/df1e47ef629d4ae09966817924f58f3d",
+      "title": "서울 열린데이터광장 OpenAPI 사용법",
+      "publishedOn": "2023-08-30",
+      "evidence": "서울시 공식 안내 영상의 문자 지원 본문은 일반 인증키의 횟수/서비스별 제한이 없다고 설명한다. 일반 키는 openapi.seoul.go.kr, 실시간 지하철 키는 swopenapi.seoul.go.kr로 구분한다."
+    },
+    {
+      "url": "https://data.seoul.go.kr/together/guide/useGuide.do",
+      "title": "Open API 이용안내",
+      "evidence": "하루 최대 1,000건은 실시간 지하철 OpenAPI에 한정하여 명시한다. 한 번에 최대 1,000건은 한 요청의 데이터 행 수 제한이다."
+    },
+    {
+      "url": "https://data.seoul.go.kr/together/notice/faqList.do",
+      "title": "공식 FAQ",
+      "evidence": "지하철 인증키 하루 1000건 제한 해제 질문은 활용사례 등록과 심사 승인을 안내한다. 다른 서비스에 동일한 일일 제한을 적용하는 근거로 사용하지 않는다."
+    },
+    {
+      "url": "https://data.seoul.go.kr/dataList/OA-21285/A/1/datasetView.do",
+      "title": "서울시 실시간 도시데이터 명세",
+      "evidence": "citydata 호출 주소는 openapi.seoul.go.kr:8088이고 한 번에 한 장소를 조회한다."
+    }
+  ],
+  "localSourceHost": "openapi.seoul.go.kr",
+  "policyConclusion": "공개된 일반 인증키 정책은 호출 횟수 제한 없음이다. citydata의 호스트와 기존 성공 호출은 해당 키 계열과 일치한다.",
+  "accountSpecificVerified": false,
+  "accountSpecificStatus": "브라우저에 로그인 링크가 표시되며 인증된 계정의 키 관리 화면을 조회하지 않았다. 개별 키 상태나 별도 예외를 확인했다고 보고하지 않는다.",
+  "perSecondOrConcurrencyLimitVerified": false,
+  "burstLimitStatus": "확인한 공개 문서에 수치가 없으므로 초당/동시 요청이 무조건 무제한이라고 해석하지 않는다.",
+  "projectDailyBudget": {
+    "default": 1000,
+    "meaning": "프로젝트 내부 안전 상한이며 서울시 일반 인증키의 공식 일일 할당량이 아니다. 이번 작업에서 변경하지 않음."
+  },
+  "actions": {
+    "credentialedSourceRequests": 0,
+    "rateLimitProbe": false,
+    "keyApplicationOrGallerySubmission": false,
+    "scheduleEnabled": false,
+    "configurationChanged": false
+  }
+}

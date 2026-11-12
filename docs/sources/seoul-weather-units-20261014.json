@@ -1,0 +1,38 @@
+{
+  "source": "https://data.seoul.go.kr/SeoulRtd/js/domain/weather.js",
+  "checkedAt": "2026-10-14",
+  "sourceSha256": "6e42c5c7dc839a824867441aa06a4330b7428caaa919bda2fe1516637362675d",
+  "records": [
+    {
+      "line": 16,
+      "selector": ".hotspot_temp",
+      "inputField": "기온",
+      "displayUnit": "℃"
+    },
+    {
+      "line": 23,
+      "selector": ".rpt_dust2",
+      "inputField": "PM25",
+      "displayUnit": "㎍/㎡"
+    },
+    {
+      "line": 31,
+      "selector": ".rpt_humidity",
+      "inputField": "습도",
+      "displayUnit": "%"
+    },
+    {
+      "line": 52,
+      "selector": ".PM25",
+      "inputField": "PM25",
+      "displayUnit": "㎍/㎥"
+    }
+  ],
+  "mapping": {
+    "TEMP": "섭씨. 공식 화면의 기온 표시와 API 필드 설명을 대조",
+    "HUMIDITY": "퍼센트. 공식 화면의 습도 표시와 API 필드 설명을 대조",
+    "PM25": "공식 스크립트에서 ㎍/㎡와 ㎍/㎥가 혼용되어 DTO 연결 보류"
+  },
+  "sourceTimeZone": "공식 근거 미확인. 명시적 설정 없이는 실행 거부",
+  "captureScope": "공식 공개 소스의 필드/단위 표시를 구조화한 기록. 코드 원본 전체는 보관하지 않음."
+}

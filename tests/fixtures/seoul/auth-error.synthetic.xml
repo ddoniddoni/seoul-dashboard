@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 합성 오류 응답. 실제 실패 envelope를 캡처한 자료가 아니다. -->
+<RESULT><CODE>INFO-100</CODE><MESSAGE>synthetic-secret https://synthetic.invalid/synthetic-secret</MESSAGE></RESULT>
